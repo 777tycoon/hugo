@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-tw'
+title = 'Tahen New Hugo Site'
+theme = "hugo-profile"
+
+[params]
+  title = "Hugo Profile"
+  description = "Text about my cool site"
+
+[[menu.main]]
+  name = "Blog posts"
+  weight = 1
+  url  = "posts/"
